@@ -1,9 +1,9 @@
-###KFC INTEGRATION###
+ï»¿###KFC INTEGRATION###
 # Axis primary server (mandatory)
-AXIS_COM=socket 217.109.89.157 9744
+AXIS_COM=socket 91.208.214.1 39655
 
 # Axis secondary server (optional)
-AXIS_COM2=socket 217.109.89.157 9744
+AXIS_COM2=socket 91.208.214.1 39655
 
 # Enable SSL on messages to Axis
 # 0 : SSL is disabled
@@ -15,15 +15,15 @@ SSL_MODE=1
 # 2 - first try with last successful Axis, offline allowed
 # 3 - first try primary Axis, offline allowed
 # 4 - first try with last successful Axis, offline allowed, restart from server 1 after offline
-# 5 - first try primary Axis, offline allowed, if offline, don’t retry to go online until a successful init is done
+# 5 - first try primary Axis, offline allowed, if offline, donï¿½t retry to go online until a successful init is done
 AXIS_OFF=3
 
 OFF_BNC_TYPE=B0
 
 # Parameter used to define the link between C3 and the pinpad.
-L10_COM=COM4 115200/8/1/0
+L10_COM=COM3 115200/8/1/0
 
-# Reader Type > L3000E is default (name is historical – L3000E being CKD / MoneyLine readers)
+# Reader Type > L3000E is default (name is historical ï¿½ L3000E being CKD / MoneyLine readers)
 LECTEUR_CB=RPM_NO_KEYED
 
 # Name of receipt files
@@ -45,7 +45,7 @@ AUTOMATE=1
 LENT_INIT=5
 
 # First line displayed on the PED on IDLE mode (16 characters)
-REPOS_1=WELCOME TO YUM
+REPOS_1=WELCOME TO KFC
 
 # Second line displayed on the PED on IDLE mode (16 characters)
 REPOS_2=RESTAURANTS
@@ -76,11 +76,11 @@ TICKET_TNA=1
 TICKET_COMM=0
 
 #Control receipt printing
-#‘0’: C3Qt sends the receipts to the printer
-#‘1’: C3Qt displays receipts (default).
+#ï¿½0ï¿½: C3Qt sends the receipts to the printer
+#ï¿½1ï¿½: C3Qt displays receipts (default).
 PRINTER_MODE=1
 
-QTPV=00000000
+QTPV=91061851
 
 QCASH=00000000
 
@@ -101,7 +101,7 @@ C3NET_TRACE=2
 VISA_RRP_MODE=1
 
 # Value used by C3 to configure the DRL (Dynamic Reader Limit) within the RAM application.
-VISA_RRP_DATA=DF6B10012E000100000BB90000000032204000DF6B0701022030004000DF6B1201AC000531026826200100000BB900000BB9DF6B1501AC0008310268261200000301000005DD000003E9DF6B1201AC0005310268261201000005DD000009C5DF6B1201AC0005310268260001000007D1000005DD
+VISA_RRP_DATA=DF6B10012E0001000011950000000032204000DF6B0701022030004000DF6B1201AC000531026826200100000BB900000BB9DF6B1501AC0008310268261200000301000005DD000003E9DF6B1201AC0005310268261201000005DD000009C5DF6B1201AC0005310268260001000007D1000005DD
 
 # 0 : Screen Saver disabled on pinpad (default)
 # 1 : Screen Saver enabled

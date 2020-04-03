@@ -18,7 +18,7 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>..\..\..\PAY_UK_IPP350_Build\</OutputPath>
+    <OutputPath>..\..\..\..\..\Acrelec\Core\Peripherals\Payments\Drivers\UK_IPP350\1.0.0.25\Driver\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
